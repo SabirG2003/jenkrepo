@@ -1,2 +1,5 @@
 [jenkins_server]
 3.138.126.184
+
+[jenkins_server] 
+(IP) ansible_ssh_private_key_file=/home/ec2-user/my-practice-key.pem
