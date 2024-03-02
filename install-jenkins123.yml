@@ -80,6 +80,7 @@
         name: docker
         state: started
         enabled: yes
+        
     - name: permission for docker
       ansible.builtin.file:
        path: /var/run/docker.sock
